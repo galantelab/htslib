@@ -2,7 +2,7 @@ project(
   'htslib', 'c',
           version : '1.9',
           license : 'MIT',
-    meson_version : '>= 0.48.0',
+    meson_version : '>= 0.58.0',
   default_options : [
     'buildtype=release',
     # -Wall produces way
